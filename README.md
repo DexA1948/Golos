@@ -1,5 +1,6 @@
 # Golos
-![G-nobg](https://user-images.githubusercontent.com/50679150/172839812-f7da94d5-b5f3-4971-adda-f7714b3ba18e.png)
+
+![G__1_-removebg-preview](https://user-images.githubusercontent.com/50679150/173246223-23cc27e9-760e-4a12-8a2d-06bbe6c630a0.png)
 
 Golo Jodne ( I called it Golos so it would be easier) is a game I played as a kid in school. This is a multiplayer game ( 2 or more players, 2/3 players are good ) in which we first draw a matrix of small circles/dots on our copy/paper which serves as a playground. Each player then takes turn to draw a line starting from one circle to another. Turn by turn as you draw edges from one circle to another you will finally enclose a square. When a player draws the last edge of the square they score a point. Such square must be formed with unit edges or adjacent circles. When you score a point, your initials or symbols are inscribed inside the square for later count. One all of the edges are finished, scores for each player are counted based on count of their symbols or how many squares they managed to enclose. I am Deshant Devkota, a Computer Science and Information Technology student and I thought it would be pretty fun to develop Golos into a multiplayer online game. I know html, css, js, bootsrap and php(CodeIgniter), so I have decided to use this skills to develop the game. I have decided to open source the project so that interested programmers might join in. The project will be started and improved incrementally. -2022/06/08 Wednesday.
 
