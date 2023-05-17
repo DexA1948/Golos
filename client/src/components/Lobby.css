@@ -1,0 +1,78 @@
+.main-content-lobby {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-content-lobby h3 {
+    width: 80%;
+    text-align: left;
+    color: blue;
+    padding-left: 3vw;
+    margin: 0;
+}
+
+.main-content-lobby ol {
+    width: 80%;
+    text-align: left;
+    color: blue;
+    margin-bottom: 10vh;
+}
+
+.main-content-lobby .invite-link span {
+    text-align: left;
+    color: green;
+    padding-left: 3vw;
+    margin: 0;
+  }
+
+.main-content-lobby .invite-link .invite {
+    position: relative;
+    border: none;
+    outline: none;
+    color: blue;
+    background-color: transparent;
+    font-family: 'Gochi Hand', cursive;
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+  }
+  
+  .main-content-lobby .invite-link .invite:before,
+  .main-content-lobby .invite-link .invite:after {
+    content: '';
+    position: absolute;
+    top: -0.1em;
+    bottom: -0.2em;
+    left: -0.2em;
+    right: -0.5em;
+    border: 3px solid blue;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-content-lobby .invite-link .invite:before {
+    transform: rotate(0deg);
+  }
+  
+  .main-content-lobby .invite-link .invite:after {
+    transform: rotate(5deg);
+  }
+  
+  
+
+.enter-gameroom {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Gochi Hand', cursive;
+    color: red;
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}

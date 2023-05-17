@@ -1,0 +1,34 @@
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.player-name-input {
+  border: none;
+  outline: none;
+  font-family: 'Gochi Hand', cursive;
+  color: blue;
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.player-name-input::placeholder {
+  font-family: 'Gochi Hand', cursive;
+  color: blue;
+}
+
+.submit-player-name {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Gochi Hand', cursive;
+  color: red;
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+}

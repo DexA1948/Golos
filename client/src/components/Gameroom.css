@@ -1,0 +1,95 @@
+.main-content-gameroom {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.gamestats {
+    width: 20%;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+.gameboard {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.main-content-gameroom .gamestats .players-list h3 {
+    width: 80%;
+    text-align: left;
+    color: blue;
+    padding-left: 3vw;
+    margin: 0;
+}
+
+.main-content-gameroom .gamestats .players-list ol {
+    width: 80%;
+    text-align: left;
+    color: blue;
+    margin-bottom: 5vh;
+}
+
+.main-content-gameroom .gamestats .invite-link .end {
+    position: relative;
+    border: none;
+    outline: none;
+    color: blue;
+    background-color: transparent;
+    font-family: 'Gochi Hand', cursive;
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    margin-bottom: 5vh;
+}
+
+.main-content-gameroom .gamestats .invite-link .invite {
+    position: relative;
+    border: none;
+    outline: none;
+    color: blue;
+    background-color: transparent;
+    font-family: 'Gochi Hand', cursive;
+    color: rgba(160, 153, 153, 0.845);
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+}
+
+.main-content-gameroom .gamestats .invite-link .invite:before,
+.main-content-gameroom .gamestats .invite-link .invite:after {
+    content: '';
+    position: absolute;
+    top: -0.1em;
+    bottom: -0.1em;
+    left: -0.1em;
+    right: -0.1em;
+    border: 1px solid rgba(160, 153, 153, 0.845);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.main-content-gameroom .gamestats .invite-link .invite:before {
+    transform: rotate(0deg);
+}
+
+.main-content-gameroom .gamestats .invite-link .invite:after {
+    transform: rotate(5deg);
+}
+
+.enter-gameroom {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Gochi Hand', cursive;
+    color: red;
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}

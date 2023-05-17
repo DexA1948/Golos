@@ -1,0 +1,54 @@
+.header {
+  position: relative;
+  margin-bottom: 4vh;
+}
+
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.welcome-message {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  font-size: 9vw;
+  text-align: center;
+  margin-top: 5vh;
+
+  text-transform: uppercase;
+  color: transparent;
+  text-shadow: 4px 2px 0px rgba(0, 0, 255, 0.607);
+  -webkit-text-stroke: 1px blue;
+}
+
+.welcome-message .logo-text .logo-img {
+  height: 9vw;
+  width: 9vw;
+  object-fit: cover;
+  object-position: top left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(2vh, 3vh);
+}
+
+.logo-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0vh, 9vh);
+}
