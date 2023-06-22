@@ -4,7 +4,7 @@
   "description": "This is used to handle backend logic for golos",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "server",

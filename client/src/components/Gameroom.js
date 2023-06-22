@@ -67,10 +67,9 @@ export function Gameroom({ rows, cols, playerName, gameLevel }) {
 
             let alpha = { start: null, end: null, score: -999 };
             let beta = { start: null, end: null, score: 999 };
-            let searchDepth = 10;
+            let searchDepth = 4;
 
             if (remainingLines.length < 17) {
-                console.log("hello");
                 searchDepth = 17;
             }
 
