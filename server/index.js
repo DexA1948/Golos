@@ -5,9 +5,10 @@ const { Server } = require('socket.io');
 
 app.use(cors);
 
+const port = process.env.PORT;
 // Start the server
-server.listen(3001, () => {
-    console.log("Server listening on port:" + 3001);
+server.listen(port, () => {
+    console.log("Server listening on port:" + port);
 });
 
 const io = new Server(server, {
