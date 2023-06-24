@@ -12,7 +12,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Endroom } from './components/Endroom';
 
-const socket = io.connect("https://golos-backend.onrender.com:10000");
+const socket = io.connect("https://golos-backend.onrender.com");
 
 function App() {
 
