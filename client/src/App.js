@@ -12,7 +12,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Endroom } from './components/Endroom';
 
-const socket = io.connect("http://13.228.225.19:3001");
+const socket = io.connect("https://golos-backend.onrender.com:10000");
 
 function App() {
 
@@ -112,7 +112,7 @@ function App() {
             socket={socket}
           />} />
           <Route path='/lobby/:any' element={<Lobby
-            inviteLink={"http://localhost:3000/" + lobbyId}
+            inviteLink={"https://golos-backend.onrender.com/" + lobbyId}
             myLobby={myLobby}
             lobbyId={lobbyId}
             setLobbyId={setLobbyId}
