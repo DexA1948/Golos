@@ -112,7 +112,7 @@ function App() {
             socket={socket}
           />} />
           <Route path='/lobby/:any' element={<Lobby
-            inviteLink={"https://golos-backend.onrender.com/" + lobbyId}
+            inviteLink={"https://golos-ejb2.onrender.com/" + lobbyId}
             myLobby={myLobby}
             lobbyId={lobbyId}
             setLobbyId={setLobbyId}
